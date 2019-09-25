@@ -1,29 +1,18 @@
 body 
 {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    background-image: url(https://get.pxhere.com/photo/sky-night-star-atmosphere-space-galaxy-nebula-outer-space-astronomy-stars-midnight-celestial-astronomical-object-1409800.jpg);
-}
-
-.bg
-{
-    position: absolute;
-    z-index: -100;
-    width: 100%;
-    height: 200%;
-    left: 200px;
-    filter: brightness(50%);
-    background-size: cover;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: black;
 }
 
 h1 
 {
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 100px;
     font-family: Arial;
     text-transform: uppercase;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .titulofoto{
@@ -42,6 +31,7 @@ h1
 .descripcion{
 
     font-size: 50px;
+    font-family: 'PT Sans Narrow', sans-serif;
 }
 
 .foto{
