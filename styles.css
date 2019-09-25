@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+.titulofoto{
+
+    text-align: center;
+    font-size: 50px;
+
+}
+
+.fecha{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+.descripcion{
+
+    font-size: 25px;
+}
+
+.foto{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
