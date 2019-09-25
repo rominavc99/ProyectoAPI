@@ -1,7 +1,9 @@
 body {
+    margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: white;
     background-color: black;
+    background-image: url(https://get.pxhere.com/photo/sky-night-star-atmosphere-space-galaxy-nebula-outer-space-astronomy-stars-midnight-celestial-astronomical-object-1409800.jpg);
 }
 
 .titulofoto{
