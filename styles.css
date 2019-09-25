@@ -39,3 +39,43 @@ h1
     justify-content: center;
     align-items: center; 
 }
+
+
+
+.boton{
+    display: flex;
+    text-align: center;
+    line-height: 15px;
+    font-weight: bold;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    display: inline-block;
+    font-size: 50px;
+    padding: 1em 2em;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    -webkit-appearance: none;
+    appearance: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+    box-shadow: 0 2px 25px rgba(255, 255, 255, 0.5);
+    background-color: rgb(98, 131, 82);
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative; 
+    top: 250px;
+    left: 4500px;
+    height: 500px;
+  position: absolute;
+    width: 500px;
+
+} 
+
+
