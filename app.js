@@ -26,7 +26,12 @@ let getpicoftheday = async ()=> {
 
     
 };
+
 getpicoftheday();
+
+
+
+
 const buttons = document.querySelectorAll('button'); //agarra todos los elementos que sean button
 
 const playnote = event=> //recibe un parametro llamado event
@@ -72,3 +77,18 @@ const animateButton = function(e) {
   }
 
 document.addEventListener('keydown', keyNoteDown);
+
+
+
+//js del navbar
+(function() {
+  $(document).ready(function() {
+    return $('#header-handle').click(function() {
+      return $('header').toggleClass('expanded');
+    });
+  });
+
+}).call(this);
+
+//termina js navbar
+
