@@ -91,6 +91,11 @@ h1
 
 }
 
+.historiades{
+  font-size: 30px;
+  text-align: justify;
+}
+
 .fotoparameters{
     display: flex;
     justify-content: center;
